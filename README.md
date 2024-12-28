@@ -1,75 +1,57 @@
-# Getting Started with Create React App
+LoanBuddy v7
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+LoanBuddy v7 is a web application designed to assist users in managing and tracking their loans efficiently. Built with modern web technologies, it offers a user-friendly interface for monitoring loan statuses, payments, and schedules.
+Features
 
-## Available Scripts
+    Loan Management: Add, edit, and delete loan entries with details such as amount, interest rate, and duration.
+    Payment Tracking: Record payments made towards loans and view payment history.
+    Amortization Schedule: Generate and display amortization schedules for better financial planning.
+    Notifications: Receive reminders for upcoming payments and due dates.
+
+Technologies Used
+
+    Frontend: React.js, Vite
+    State Management: React Context API
+    Styling: CSS Modules
+    Build Tool: Vite
+
+Getting Started
+
+To run LoanBuddy v7 locally, follow these steps:
+
+    Clone the repository:
+
+git clone https://github.com/zoneshosting/loanbuddy-v7.git
+cd loanbuddy-v7
+
+Install dependencies:
+
+yarn install
+
+Start the development server:
+
+    yarn start
+
+    Open http://localhost:3000 in your browser to view the application.
+
+Scripts
 
 In the project directory, you can run:
 
-### `Yarn`
+    yarn start: Runs the app in development mode.
+    yarn build: Builds the app for production to the dist folder.
+    yarn test: Launches the test runner in interactive watch mode.
 
-Install packages
+Contributing
 
-### `Yarn start`
+Contributions are welcome! Please follow these steps:
 
-Runs the app in the development mode.\
+    Fork the repository.
+    Create a new branch: git checkout -b feature-name.
+    Make your changes and commit them: git commit -m 'Add feature'.
+    Push to the branch: git push origin feature-name.
+    Submit a pull request.
 
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+License
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the LICENSE file for details.
